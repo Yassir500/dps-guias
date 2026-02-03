@@ -33,11 +33,27 @@ body {
   font-size: 14px;
 }
 
+navegacion a {
+  transition: all 0.3s ease;
+}
+
+.navegacion a:hover {
+  color: #000;
+  background-color: #cfcfcf;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
 .contenedor {
   max-width: 900px;
   margin: 25px auto;
   background-color: #ffffff;
   padding: 30px;
+}
+
+contenedor {
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .bloque {
@@ -58,12 +74,22 @@ body {
   margin: 10px 0;
 }
 
+bloque img {
+  border-radius: 6px;
+  background-color: #eaeaea;
+  padding: 6px;
+}
+
 .pie {
   text-align: center;
   padding: 15px;
   font-size: 13px;
   color: #666;
   border-top: 1px solid #ccc;
+}
+
+pie {
+  background-color: #f7f7f7;
 }
 
 @media (max-width: 700px) {
@@ -76,4 +102,5 @@ body {
     margin: 15px;
     padding: 20px;
   }
+
 }
